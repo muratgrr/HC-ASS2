@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(arka_plan.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px;
+}
+
+form {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #585ed7 100%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 20px;
+  display: inline-block;
+}
+
+label {
+  margin: 25px;
+  display: inline-block;
+  text-align: left;
+  width: 110px;
+}
+
+input {
+  padding: 10px;
+}
+
+.button {
+  background-color: rgb(213, 137, 211);
+  padding: 10px;
+  width: 30%;
+  margin: 10px auto;
+  border-radius: 15px;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(108, 000, 110);
+  color: white;
+  cursor: pointer;
+}
